@@ -1,0 +1,9 @@
+bind ^c copy main
+bind ^x cut main
+bind ^z undo main
+bind ^y redo main
+bind ^f whereis main
+bind ^H cutwordleft main
+set tabsize 4
+
+
