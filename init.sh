@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # add more files here if needed
-DOTFILES=(.zshrc)
+DOTFILES=(.zshrc .vimrc)
 
 for dotfile in $(echo ${DOTFILES[*]});
 do
