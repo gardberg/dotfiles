@@ -6,7 +6,6 @@ CASE_SENSITIVE="false"
 plugins=(
 	docker
 	git
-    zsh-syntax-highlighting
 )
 
 unsetopt correct_all
