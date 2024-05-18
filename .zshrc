@@ -6,8 +6,8 @@ CASE_SENSITIVE="false"
 plugins=(
 	docker
 	git
+    zsh-syntax-highlighting
 )
-# zsh-autosuggestions removed
 
 unsetopt correct_all
 
@@ -22,3 +22,11 @@ fi
 export TERM=xterm-256color
 
 export EDITOR="vim"
+
+# Aliases
+alias python=python3
+
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /Users/gardberg/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
